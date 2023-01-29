@@ -12,6 +12,6 @@ body {
 	padding-right: 24px;
 }
 html{
-	background: radial-gradient(circle, SkyBlue, SkyBlue 50%, LightCyan 50%, SkyBlue);
+	background: radial-gradient(circle, rgb(89, 163, 192), SkyBlue 50%, LightCyan 50%, SkyBlue);
 	background-size: 15px 15px;
 }
