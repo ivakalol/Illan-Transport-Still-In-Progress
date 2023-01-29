@@ -1,17 +1,40 @@
 body {
-	background-color: Thistle;
-	font-family: Sans-serif	;
-	bordeer: 2px solid Gray;
-	margin-left: auto;
-	margin-right: auto;
-	max-width: 10px;
-	min-width: 1750px;
-	padding-top: 8px;
-	padding-bottom: 24px;
-	padding-left: 24px;
-	padding-right: 24px;
-}
-html{
-	background: radial-gradient(circle, rgb(89, 163, 192), SkyBlue 50%, LightCyan 50%, SkyBlue);
-	background-size: 15px 15px;
-}
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+  }
+  
+  header {
+	background-color: lightgray;
+	padding: 20px;
+	text-align: center;
+  }
+  
+  nav {
+	background-color: gray;
+	padding: 20px;
+  }
+  
+  nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: space-between;
+  }
+  
+  nav a {
+	color: white;
+	text-decoration: none;
+  }
+  
+  main {
+	padding: 20px;
+	text-align: center;
+  }
+  
+  footer {
+	background-color: lightgray;
+	padding: 20px;
+	text-align: center;
+  }
